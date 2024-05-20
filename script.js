@@ -35,7 +35,7 @@ document.getElementById('trigger').addEventListener('click', function() {
         const logo = document.createElement('img');
         logo.src = 'image-from-rawpixel-id-6772898-png-2.png';  // Replace with your logo path
         logo.classList.add('logo-fall');
-        logo.style.left = Math.random() * 180 + 'vw';
+        logo.style.left = Math.random() * 100 + 'vw';
         logo.style.animationDelay = Math.random() * 5 + 's';
         
         // Randomly flip some logos horizontally
