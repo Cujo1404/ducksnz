@@ -25,3 +25,28 @@ var x = setInterval(function() {
         document.getElementById("countdown").innerHTML = "EXPIRED";
     }
 }, 1000);
+
+
+// Falling logos animation
+document.getElementById('trigger').addEventListener('click', function() {
+    const container = document.getElementById('falling-logos');
+    container.innerHTML = '';
+    for (let i = 0; i < 130; i++) {
+        const logo = document.createElement('img');
+        logo.src = 'image-from-rawpixel-id-6772898-png-2.png';  // Replace with your logo path
+        logo.classList.add('logo-fall');
+        logo.style.left = Math.random() * 180 + 'vw';
+        logo.style.animationDelay = Math.random() * 5 + 's';
+        
+        // Randomly flip some logos horizontally
+        if (Math.random() > 0.5) {
+            logo.style.transform = 'scaleX(-1)';
+        }
+        
+        container.appendChild(logo);
+    }
+
+    setTimeout(() => {
+        container.innerHTML = '';
+    }, 16000);  // Allow time for all animations to complete
+});
