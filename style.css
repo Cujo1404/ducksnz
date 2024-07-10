@@ -186,7 +186,7 @@ footer {
   .infoFooter {
     width: 100%;
     color: darkblue;
-    position: fixed;
+    position: relative;
     left: 0;
     bottom: 0;
     text-align: center;
