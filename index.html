@@ -9,6 +9,7 @@
     <meta name="author" content="author" />
     <meta name="keywords" content="keywords" />
     <style type="text/css">.body { width: auto; }</style>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 </head>
 <body>
     <div class="container">
@@ -31,17 +32,16 @@
   
                         <form class="i-form" action="https://formsubmit.co/33cd0e0a23bd9cb390256f1cb500f832" method="POST">
 
-                          <label for="name" class="form-label">Name</label>
-                          <input type="text" name="name" class="form-control i-email" id="name" placeholder="Jane Doe"
+                          <!-- <label for="name" class="form-label">Name</label> -->
+                          <input type="text" name="name" class="form-control i-email" id="name" placeholder="Jane Doe"><br>
                           
-                          
-                        <label for="i-email" class="form-label">Email</label>
+                        <!-- <label for="i-email" class="form-label">Email</label> -->
                           <input type="email" name="email" class="form-control i-email" id="i-email" aria-describedby="emailHelp"
-                          placeholder="janedoe@example.com" required>
+                          placeholder="janedoe@example.com" required><br>
                           
                           <label for="validationTextarea" class="form-label d-none">Message</label>
               <textarea class="form-control d-none" id="validationTextarea" name="message" placeholder="Kia ora Alexander...">Hello, I am interested in hearing about more news regarding ducks.nz!</textarea>
-              <button type="submit">Notify Me</button>
+              <button type="submit">Notify Me<br><span class="formBy">(form by FormSubmit)</span></button>
               <input type="hidden" name="_next" value="https://cujo1404.github.io/ducksnz/">
               <input type="hidden" name="_subject" value="Enquiry - ducks NZ">
                       </form>
@@ -59,12 +59,74 @@
                     <button type="submit">Notify Me</button>
                 </form> -->
             </div>
+
+<!-- w3Schools modal -->
+<div id="id01" class="w3-modal">
+    <div class="w3-modal-content w3-card-4">
+      <header class="w3-container w3-teal"> 
+        <span onclick="document.getElementById('id01').style.display='none'" 
+        class="w3-button w3-display-topright">&times;</span>
+        <h2>Privacy Policy for Email Subscriptions</h2>
+      </header>
+      <div class="w3-container">
+        <p class="PrivacyText" style="color: black;">
+            Privacy Policy for Email Subscriptions of Ducks NZ Limited<br><br>
+
+            Effective Date: 01/05/2024<br><br>
+            
+            Ducks NZ Ltd ("we," "us," or "our") values your privacy and is committed to protecting your personal information. This Privacy Policy outlines how we collect, use, and protect your information when you subscribe to our email list.<br><br>
+            
+            1. Information We Collect<br>
+            When you subscribe to our email list, we may collect the following information:<br><br>
+            
+           + Email address<br>
+           + Name (optional)<br>
+           + Your expressed interest to join our mailing list<br><br>
+
+            2. How We Use Your Information<br>
+            We use the information we collect to:<br><br>
+            
+            Send you newsletters, updates, promotional materials, and other information related to our services.<br>
+            Improve our email content and user experience.<br><br>
+
+            3. Data Security<br>
+            We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction.<br><br>
+            
+            4. Third-Party Sharing<br>
+            Your email and name is routed through <a href="https://formsubmit.co" target="_blank">FormSubmit</a>, a HTML form providing company with mail forwarding servcies.
+            We do not sell, trade, or otherwise transfer your personal information to outside parties, except when necessary to comply with the law or protect our rights.<br><br>
+            
+            5. Unsubscribe<br>
+            You can unsubscribe from our email list at any time by replying with the subject line "unsubscribe"  or clicking this <a class="unsubHerePrivacy" href="mailto:admin@ducks.nz?subject=unsubscribe &body=I no longer wish to any recieve emails from ducks NZ please. I want to unsubscribe.">link</a> in the footer of our emails or by contacting us directly at <a class="unsubHerePrivacy" href="mailto:admin@ducks.nz?subject=unsubscribe &body=I no longer wish to any recieve emails from ducks NZ please. I want to unsubscribe.">admin@ducks.nz</a>.<br><br>
+            
+            6. Changes to This Privacy Policy<br>
+            We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on our website and updating the effective date at the top of this page.<br><br>
+            
+            Contact Us<br>
+            If you have any questions about this Privacy Policy, please contact us at <a class="unsubHerePrivacy" href="mailto:admin@ducks.nz?subject=Privacy Policy enquiry &body=Hello, ">admin@ducks.nz</a>.<br><br>
+            
+            Ngā mihi & kia kaha from the mini team here at ducks NZ<br><br>
+            Ducks NZ Limited<br>
+            suite 14442 <br>
+            Level 1, Johnsonville Road <br>
+            Johnsonville<br>
+            Wellington 6037<br>
+            <a class="unsubHerePrivacy" href="mailto:hello@ducks.nz?subject=Hello ducks NZ team &body=Kia ora, ">hello@ducks.nz</a><br><br><br>
+        </p>
+        <p class="modalBy" style="color: black;">Modal by <a href="https://www.w3schools.com/w3css/w3css_modal.asp" target="_blank">W3schools</a></p>
+      </div>
         </main>
         <footer>
             <div class="social-links">
-                <a href="#" target="_blank">Facebook</a>
-                <a href="#" target="_blank">Twitter</a>
-                <a href="#" target="_blank">Instagram</a>
+                <a href="https://www.facebook.com/profile.php?id=61561368419387" target="_blank">Facebook</a>
+                <a href="https://youtube.com/@ducksnz?si=AsOY-4qH5d6_Csf_" target="_blank">Youtube</a>
+                <a href="https://www.instagram.com/ducks.nz?igsh=MTdyeGlocXl5MnpvbA==" target="_blank">Instagram</a>
+                <a href="mailto:hello@ducks.nz?subject=Hello ducks NZ team &body=Kia ora, " target="_blank">hello@ducks.nz</a>
+            </div>
+            <div class="infoFooter">
+                <p class="unsubTXT">
+                    <!-- if you wish to unsubscribe please send an email to admin@ducks.nz with the subject line "unsubscribe" or click <a class="unsubHere" href="mailto:admin@ducks.nz?subject=unsubscribe &body=I no longer wish to any recieve emails from ducks NZ please. I want to unsubscribe.">here</a> and press send.  -->
+                    <br> You can also read our little privacy policy <button onclick="document.getElementById('id01').style.display='block'" class="w3-button" id="privacyModal">here.</button></p>
             </div>
         </footer>
     </div>
