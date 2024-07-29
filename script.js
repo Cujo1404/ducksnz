@@ -33,7 +33,7 @@ document.getElementById('trigger').addEventListener('click', function() {
     container.innerHTML = '';
     for (let i = 0; i < 130; i++) {
         const logo = document.createElement('img');
-        logo.src = 'final_Duck_Logo.png';
+        logo.src = 'images/final_Duck_Logo.png';
         logo.classList.add('logo-fall');
         logo.style.left = Math.random() * 100 + 'vw';
         logo.style.animationDelay = Math.random() * 5 + 's';
